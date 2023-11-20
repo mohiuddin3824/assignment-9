@@ -21,4 +21,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+<<<<<<< HEAD
 Route::get('/profile/{id?}', [ProfileController::class, 'index']);
+=======
+Route::get('/profile/{id}', [ProfileController::class, 'index']);
+>>>>>>> 8b4faf9f5a700158ed257cc2ddeeaa8b5849e9c0

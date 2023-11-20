@@ -6,7 +6,11 @@ use Illuminate\Http\Request;
 
 class ProfileController extends Controller
 {
+<<<<<<< HEAD
     function index($id=1254)
+=======
+    function index($id)
+>>>>>>> 8b4faf9f5a700158ed257cc2ddeeaa8b5849e9c0
     {
         $name = "Donal Trump";
         $age = "75";
